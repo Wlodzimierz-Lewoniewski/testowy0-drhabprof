@@ -4,7 +4,7 @@
       "name": "test0",
       "setup": "",
       "run": "python3 main.py",
-      "input": "house\r\ncat\r\ndog\r\nis",
+      "input": "4\r\nhouse\r\ncat\r\ndog\r\nis",
       "output": "house 5\r\ncat 3\r\ndog 3",
       "comparison": "included",
       "timeout": 5,
