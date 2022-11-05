@@ -1,5 +1,5 @@
 words = input().split()
-sentences_count=int(intput())
+sentences_count=int(input())
 sentences=[]
 for x in range(sentences_count):
     a=input()
