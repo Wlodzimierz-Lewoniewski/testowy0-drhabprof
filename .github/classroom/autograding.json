@@ -4,8 +4,8 @@
       "name": "test0",
       "setup": "",
       "run": "python main.py",
-      "input": "3\r\nYour care set up, do not pluck my care down.\r\nMy care is loss of care with old care done.\r\nYour care is gain of care when new care is won.\r\n2\r\ncare\r\nis",
-      "output": "[1, 2, 0]\r\n[2, 1]",
+      "input": "cat dog\r\n3\r\nHere is a cat and a dog\r\nI see a cat and a dog - a big dog\r\nI can see only a white cat and a black cat",
+      "output": "[1, 1]\r\n[1, 2]\r\n[2, 0]",
       "comparison": "included",
       "timeout": 5,
       "points": 1
