@@ -1,21 +1,14 @@
-liczbaDok = int(input())
-dokumenty = []
+words = input().split()
+sentences_count=int(intput())
+sentences=[]
+for x in range(sentences_count):
+    a=input()
+    sentences.append(a)
 
-for x in range(liczbaDok):
-    a = input()
-    dokumenty.append(a)
-
-liczbaZapytan = int(input())
-zapytania = []
-
-for x in range(liczbaZapytan):
-    b = input()
-    zapytania.append(b)
-
-for zapytanie in zapytania:
-    slownik = {}
-    for num, dok in enumerate(dokumenty):
-        tokeny = dok.lower().split()
-        if zapytanie in tokeny:
-            slownik[num] = tokeny.count(zapytanie)
-    print([w for w in sorted(slownik, key = slownik.get, reverse = True)])
+for word in words:
+    result=[]
+    for num,sentence in enumerate(sentences):
+        tokens=sencence.split()
+        if word in tokens:
+            result.append(tokens.count(word))
+    print (result)
