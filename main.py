@@ -8,6 +8,6 @@ for x in range(sentences_count):
 for word in words:
     result=[]
     for num,sentence in enumerate(sentences):
-        tokens=sencence.split()
+        tokens=sentence.split()
         result.append(tokens.count(word))
     print (result)
