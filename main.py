@@ -9,6 +9,5 @@ for word in words:
     result=[]
     for num,sentence in enumerate(sentences):
         tokens=sencence.split()
-        if word in tokens:
-            result.append(tokens.count(word))
+        result.append(tokens.count(word))
     print (result)
