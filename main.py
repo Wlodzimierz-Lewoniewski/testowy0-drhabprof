@@ -1,9 +1,13 @@
-words = input().split()
 sentences_count=int(input())
 sentences=[]
 for x in range(sentences_count):
     a=input()
     sentences.append(a)
+words_count = int(input())
+words=[]
+for x in range(words_count):
+    a=input()
+    words.append(a)
 
 for word in words:
     result={}
