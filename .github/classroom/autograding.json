@@ -19,16 +19,6 @@
       "comparison": "exact",
       "timeout": 5,
       "points": 1
-    },
-    {
-      "name": "test3",
-      "setup": "",
-      "run": "python main.py",
-      "input": "\"3\\nHere is a cat and a dog\\nI see a cat and a dog - a big dog\\nI can see only a white cat and a black cat\\n2\\ncat\\ndog\"",
-      "output": "[2, 0, 1]\r\n[0, 1]",
-      "comparison": "regex",
-      "timeout": 5,
-      "points": 1
     }
   ]
 }
