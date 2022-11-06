@@ -2,12 +2,12 @@ sentences=[]
 sentences_count=int(input())
 for x in range(sentences_count):
     a=input()
-    sentences.append(a)
+    sentences.append(a.strip())
 words_count = int(input())
 words=[]
 for x in range(words_count):
     a=input()
-    words.append(a)
+    words.append(a.strip())
 
 for word in words:
     result={}
