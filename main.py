@@ -10,5 +10,5 @@ for word in words:
     for num,sentence in enumerate(sentences):
         tokens=sentence.split()
         if word in tokens:
-            result.append(tokens.count(word))
+            result[num]=tokens.count(word)
     print (result)
