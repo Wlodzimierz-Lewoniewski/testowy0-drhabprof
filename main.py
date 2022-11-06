@@ -1,5 +1,5 @@
-sentences_count=int(input())
 sentences=[]
+sentences_count=int(input())
 for x in range(sentences_count):
     a=input()
     sentences.append(a)
@@ -15,4 +15,5 @@ for word in words:
         tokens=sentence.split()
         if word in tokens:
             result[num]=tokens.count(word)
-    print ([x for x in sorted(result, key=result.get, reverse=True)])
+    print (result)
+    #print ([x for x in sorted(result, key=result.get, reverse=True)])
