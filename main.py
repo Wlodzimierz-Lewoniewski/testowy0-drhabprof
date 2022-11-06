@@ -15,5 +15,4 @@ for word in words:
         tokens=sentence.split()
         if word in tokens:
             result[num]=tokens.count(word)
-    print (result)
-    #print ([x for x in sorted(result, key=result.get, reverse=True)])
+    print ([x for x in sorted(result, key=result.get, reverse=True)])
