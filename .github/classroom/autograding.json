@@ -1,11 +1,11 @@
 {
   "tests": [
     {
-      "name": "test0",
-      "setup": "text eol=lf",
+      "name": "test1",
+      "setup": "",
       "run": "python main.py",
       "input": "3\r\nHere is a cat and a dog\r\nI see a cat and a dog - a big dog\r\nI can see only a white cat and a black cat\r\n2\r\ncat\r\ndog",
-      "output": "[2, 0, 1]\r\n[1, 0]",
+      "output": "[2, 0, 1]\r\n[0, 2]",
       "comparison": "exact",
       "timeout": 5,
       "points": 1
