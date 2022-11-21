@@ -1,3 +1,4 @@
+import numpy
 sentences=[]
 sentences_count=int(input())
 for x in range(sentences_count):
